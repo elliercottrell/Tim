@@ -19,11 +19,11 @@
 }
 
 .nav-item{
-    line-height:6px;
+    line-height:13px;
 }
 .dropdown-item{
     font-size:13px;
-    line-height: 10px;
+    line-height: 13px;
 }
 
 h1{
@@ -43,11 +43,13 @@ p{
     font-family:'Futura';
     font-weight:lighter;
     font-size:10px;
-    margin-left: 14px;
+    margin-left: 15px;
 }
 
 .fa-instagram{
     color:black;
-    margin-left: 14px;
     margin-top:10px;
+    display:block;
+    text-align:center;
+
 }
