@@ -5,9 +5,10 @@
     margin:0 auto;
 }
 
-.navbar-toggler-icon{
-    font-size:25px;
+.fa{
+    font-size:20px;
     border:none;
+    color:black;
 }
 
 .navbar a {
@@ -31,7 +32,9 @@ h1{
     text-align:center;
     text-transform: uppercase; 
     margin-bottom:20px;
+    font-size:35px;
 }
+
 
 .homeImage {
     max-width:350px;
@@ -42,13 +45,25 @@ p{
     font-family:'Futura';
     font-weight:lighter;
     font-size:10px;
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom:1px;
 }
 
 .fa-instagram{
     color:black;
-    margin-top:10px;
     display:block;
     text-align:center;
-
 }
+
+
+@media (max-width: 900px) {
+    .container {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 35px;
+    }
+  }
