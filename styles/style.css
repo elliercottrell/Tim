@@ -42,7 +42,7 @@ h1{
 
 
 .homeImage {
-    max-width:350px;
+    max-width:400px;
     margin:0 auto;
 }
 
@@ -60,16 +60,9 @@ p{
 }
 
 
-
-
-@media (max-width: 900px) {
-    .container {
-      max-width: 500px;
-    }
-  }
   
   @media (max-width: 600px) {
-    h1 {
-      font-size: 35px;
-    }
+    .container {
+        max-width: 350px;
+      }
   }
