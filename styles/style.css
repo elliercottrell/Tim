@@ -18,7 +18,10 @@
     font-size:20px;
 }
 
-.navbar a {
+li{ 
+    text-align:center;
+}
+.navbar a { 
     color:var(--primary-color);
     font-family: var(--primary-font);
     font-weight:500;
@@ -32,8 +35,15 @@
 }
 
 .dropdown a{
-    outline:none;
+    line-height:20px;
+    outline:none;   
 }
+
+.dropdown a:hover{
+    background:none;
+}
+
+/* heading & container */
 
 h1{
     color:var(--primary-color);
@@ -66,10 +76,18 @@ h1{
     margin-right:80px;
 }
 
+/*info */
+
 .fa-instagram{
     color:var(--primary-color);
     margin-top:25px;
     font-size:15px;
+}
+
+.fa-instagram:hover{
+    color:red;
+    opacity:30%;
+    transition: ease-in-out;
 }
 
 p{
@@ -77,9 +95,9 @@ p{
     font-size:10px;
     font-weight:lighter;
     margin-top: 20px;
-
 }
 
+/* responsive */
 
   @media (max-width: 600px) {
     .container {
@@ -101,6 +119,6 @@ p{
       .fa-instagram{
           font-size:20px;
       }
-      
-
   }
+
+
