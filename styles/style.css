@@ -12,8 +12,9 @@
 }
 
 .navbar a {
-    font-family:'Futura';
-    font-weight:500;
+    font-family:'gill sans';
+    font-weight:400;
+    letter-spacing:1.5px;
     text-transform:uppercase;
     color:black;
 }
