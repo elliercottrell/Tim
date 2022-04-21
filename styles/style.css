@@ -1,56 +1,60 @@
+:root{
+    --primary-font: "Futura";
+    --primary-color:#000000;
+}
+
+/*all navbar */
 .navbar{
     margin-top:8px;
 }
+
 .navbar-toggler{
     margin:0 auto;
 }
 
 .fa{
-    font-size:20px;
     border:none;
-    color:black;
+    color:var(--primary-color);
+    font-size:20px;
 }
 
 .navbar a {
-    font-family:'gill sans';
-    font-weight:400;
-    letter-spacing:1.5px;
+    color:var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight:500;
+    letter-spacing:1px;
+    line-height:13px;
     text-transform:uppercase;
-    color:black;
 }
 
-.nav-item{
-    line-height:13px;
-}
 .dropdown-item{
     font-size:13px;
-    line-height: 13px;
-}
-.navbar-toggler{
-    outline:none;
 }
 
 .dropdown a{
     outline:none;
 }
+
 h1{
-    color:#000000;
-    font-family:'Futura';
+    color:var(--primary-color);
+    font-family:var(--primary-font);
     font-size:35px;
     font-weight:bold;
+    margin-bottom:20px; 
     text-align:center;
     text-transform: uppercase; 
-    margin-bottom:20px; 
 }
 
-.homeImage {
-    max-width:400px;
+.homePage {
     margin:0 auto;
+    max-width:400px;
 }
+
+/*image carousel */
 
 .carousel-icon-left, 
 .carousel-icon-right{
-    color:black;
+    color:var(--primary-color);
     font-size:20px;
     margin-top:-100px;
 }
@@ -63,15 +67,17 @@ h1{
 }
 
 .fa-instagram{
-    color:black;
+    color:var(--primary-color);
     margin-top:25px;
+    font-size:15px;
 }
 
 p{
-    font-family:'Futura';
-    font-weight:lighter;
+    font-family:var(--primary-font);
     font-size:10px;
+    font-weight:lighter;
     margin-top: 20px;
+
 }
 
 
@@ -79,4 +85,22 @@ p{
     .container {
         max-width: 350px;
       }
+  }
+
+  @media (min-width:600px){
+      .fa{
+        font-size:25px;
+      }
+    
+      h1{
+        font-size:42px;
+      }  
+      p {
+          margin-top:40px;
+      }
+      .fa-instagram{
+          font-size:20px;
+      }
+      
+
   }
