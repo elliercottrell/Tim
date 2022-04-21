@@ -43,11 +43,7 @@
     
     <div class="container">
     <div class="homeImage">
-      <span class="carousel-icons">
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-        <i class="fa fa-thin fa-chevron-left carousel-icon-left"></i>
-      </button>
-      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/images/tulips.jpg" class="d-block w-100" alt="...">
@@ -59,10 +55,14 @@
             <img src="/images/chairs.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-      </div>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-          <i class="fa fa-thin fa-chevron-right carousel-icon-right"></i>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon visually-hidden" aria-hidden="true"></span>
+        
         </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon visually-hidden" aria-hidden="true"></span>
+        </button>
+      </div>
       
       <a href="https://www.instagram.com/tim.d.jamieson" class="insta" style="text-decoration:none;"  target="_blank"><i class="fab fa-instagram"></i></a>  
       <p>© Tim Jamieson</p>
