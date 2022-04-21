@@ -26,6 +26,9 @@
     font-size:13px;
     line-height: 13px;
 }
+.navbar-toggler{
+    outline:none;
+}
 
 .dropdown a{
     outline:none;
