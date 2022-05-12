@@ -37,6 +37,10 @@ li {
   text-transform: uppercase;
 }
 
+.dropdown {
+  margin-top: -3px;
+}
+
 .dropdown-item {
   font-size: 13px;
 }
@@ -61,6 +65,9 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+.homepage {
+  max-width: 350px;
+}
 
 .toHome {
   color: var(--primary-color);
@@ -70,11 +77,6 @@ h1 {
 .toHome:hover {
   color: var(--primary-color);
   opacity: 90%;
-}
-
-.homePage {
-  margin: 0 auto;
-  max-width: 400px;
 }
 
 /*image carousel */
@@ -127,25 +129,8 @@ p {
 }
 
 /* responsive */
-
-@media (max-width: 600px) {
-  .container {
-    max-width: 350px;
-  }
-}
-
-@media (min-width: 600px) {
-  .fa {
-    font-size: 25px;
-  }
-
-  h1 {
-    font-size: 42px;
-  }
-  p {
-    margin-top: 40px;
-  }
-  .fa-instagram {
-    font-size: 20px;
+@media (min-width: 768px) {
+  .homepage {
+    max-width: 440px;
   }
 }
